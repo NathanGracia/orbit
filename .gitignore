@@ -1,2 +1,8 @@
 node_modules
 .ds_store
+
+\.idea/vcs\.xml
+
+\.idea/workspace\.xml
+
+\.idea/

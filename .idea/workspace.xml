@@ -13,6 +13,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Uc7eySoH9fxIBJ217yrJvTyoah" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -45,19 +48,30 @@
       <workItem from="1575666760272" duration="4188000" />
       <workItem from="1575671432411" duration="1796000" />
       <workItem from="1575718811611" duration="15583000" />
+      <workItem from="1575749012983" duration="660000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/js/canvas.js</url>
-          <line>193</line>
-          <properties lambdaOrdinal="-1" />
+          <line>194</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
