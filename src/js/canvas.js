@@ -208,6 +208,7 @@ class Planet {
     }
 }
 
+//target
 class Enemy {
     constructor(x, y, radius, color) {
         this.x = x;
@@ -261,6 +262,7 @@ let planets = [];
 let enemies = [];
 
 function init() {
+  planets = [];
     //player will follow mouse's player
     player = new Player(undefined, undefined, 20, 'white');
     let enemyX = innerWidth / 5;
