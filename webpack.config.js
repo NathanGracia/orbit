@@ -31,9 +31,9 @@ module.exports = {
       notify: false
     }),
     new HtmlWebpackPlugin({
-      filename: 'index.html',
+      filename: 'orbit.html',
       favicon: 'favicon.ico',
-      template: 'src/index.html'
+      template: 'src/orbit.html'
     })
   ],
   watch: true,

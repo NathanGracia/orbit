@@ -1,3 +1,5 @@
+
+
 //init consts
 const canvas = document.querySelector('canvas');
 const c = canvas.getContext('2d');
@@ -17,6 +19,8 @@ let score = 0;
 let bestScore = 0;
 let circles = [];
 let particles = [];
+
+
 //tools
 // random int from min and max
 function randomIntFromRange(min, max) {
@@ -624,6 +628,7 @@ function init() {
 
 // Animation Loop
 function animate() {
+
     //loop
     requestAnimationFrame(animate);
     //clear page
