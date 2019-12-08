@@ -346,9 +346,21 @@ class BlackHole {
                 if (distance(planets[i].x, planets[i].y, this.x, this.y) < this.radius / 10) {
 
 
+                    let particleColor = planets[i].color;
                     delete planets[i].x;
                     planets[i].killed = true;
+                    //create planet's particules
 
+                    for (let i = 0; i < 10; i++){
+                        let radius = randomIntFromRange(2, 8);
+                        let ranVelocityX = randomIntFromRange(-10,10);
+                        let ranVelocityY = randomIntFromRange(-10,10);
+                        let velocity = {
+                            x : ranVelocityX,
+                            y: ranVelocityY
+                        };
+                        particles.push(new Particle(this.x, this.y,radius, particleColor, velocity ))
+                    }
                     //grow in size / life
                     this.expectedRadius = this.radius * 1.2;
 
@@ -375,13 +387,27 @@ class BlackHole {
                     enemies[i].velocity.x -= xDeplacement * 2;
                     enemies[i].velocity.y -= yDeplacement * 2;
                 }
-                if (distance(enemies[i].x, enemies[i].y, this.x, this.y) < this.radius / 10) {
+                if (distance(enemies[i].x, enemies[i].y, this.x, this.y) < this.radius / 8) {
 
                     this.radius = this.radius * 1.2;
                     this.maxLife = this.radius;
                     this.life = this.maxLife;
+
+                    let particleColor = enemies[i].color;
                     delete enemies[i].x;
                     enemies[i].killed = true;
+                    //enemy's particles
+                    for (let i = 0; i < 10; i++){
+                        let radius = randomIntFromRange(2, 8);
+                        let ranVelocityX = randomIntFromRange(-10,10);
+                        let ranVelocityY = randomIntFromRange(-10,10);
+                        let velocity = {
+                            x : ranVelocityX,
+                            y: ranVelocityY
+                        };
+                        particles.push(new Particle(this.x, this.y,radius, particleColor, velocity ))
+                    }
+
 
                 }
             }
