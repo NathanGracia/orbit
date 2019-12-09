@@ -1,6 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <meta charset="UTF-8">
     <title>C'est les regles</title>
     <style>
@@ -12,12 +14,5 @@
     </style>
 </head>
 <body>
-<center>
-    <img id="regles" src="src/reglesOrbit.png"
-         width="400" height="400" style="z-index: 5; margin-top: 100px" ><br>
-
-    <a href="orbit.html" style="color: white; font-family: 'Open Sans'; ">Commencer !</a>
-</center>
-
 </body>
 </html>
