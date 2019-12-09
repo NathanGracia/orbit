@@ -439,7 +439,7 @@ class BlackHole {
             }
 
             //update life
-            if (this.life <= 0) {
+            if (this.life <= 0 || this.radius > 6000) {
                 delete this.x;
                 this.killed = true;
             } else {
