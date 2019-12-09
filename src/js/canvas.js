@@ -647,7 +647,7 @@ function init()
 
     }
 
-    newScoreAjax(bestScore);
+
 
 }
 
@@ -693,6 +693,7 @@ function animate() {
         score++;
         if (score > bestScore) {
             bestScore = score;
+            newScoreAjax(bestScore);
         }
         //spawning a new enemy
         let enemyX = innerWidth / 5;
