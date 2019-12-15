@@ -8,8 +8,10 @@ if (isset($_POST['name'])){
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Orb'it</title>
+      <link rel="icon" href="flavicon.png" />
+
+      <meta charset="UTF-8" />
+    <title>Orbit</title>
     <style>
       body {
         margin: 0;
