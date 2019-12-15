@@ -17,8 +17,7 @@
 <center>
     <img id="regles" src="src/reglesOrbit.png"
          width="600" height="600" style="z-index: 5; margin-top: 100px" ><br>
-    <p style="color: white">J'ai oublié de le mettre dans les regles donc jle met là en attendant, vous allez pas pleurer : <br> Si vos planètes sortent de l'écran, elles sont foutues. Bises.</p>
-
+   
     <form action="orbit.php" method="post">
         <div class="input-group flex-nowrap" style="width: 15%">
             <div class="input-group-prepend">
